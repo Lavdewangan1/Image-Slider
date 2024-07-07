@@ -22,10 +22,7 @@ function prevSlide() {
   showSlide(currentSlide - 1);
 }
 
-// Automatic Slideshow
 setInterval(() => {
   nextSlide();
 }, 3000);
-
-// Display the first image when the page loads
 showSlide(currentSlide);
